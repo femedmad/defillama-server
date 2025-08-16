@@ -83,12 +83,6 @@ const data3_1: Protocol[] = [
         proof: ["https://docs.mantissa.finance/developers/security#de-peg-protection"],
         chains: [{chain: "Polygon"}]
       },
-      {
-        name: "Api3",
-        type: "Primary",
-        proof: ["https://docs.mantissa.finance/developers/security#de-peg-protection"],
-        chains: [{chain: "Polygon zkEVM"}]
-      },
     ],
     forkedFrom: [],
     module: "MantisSwap/index.js",
@@ -399,7 +393,7 @@ const data3_1: Protocol[] = [
     cmcId: null,
     category: "Lending",
     chains: ["Arbitrum", "Optimism"],
-    oraclesBreakdown: [ { name: "Chainlink", type: "Primary", proof: []} ],
+    oraclesBreakdown: [ { name: "Pyth", type: "Fallback", proof: []} ],
     forkedFromIds: ["114"],
     module: "kokomo/index.js",
     twitter: "KokomoFinance",
