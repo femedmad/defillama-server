@@ -112,7 +112,7 @@ const data: Protocol[] = [
     oraclesBreakdown: [
       {
         name: "Chainlink",
-        type: "Primary",
+        type: "Secondary",
         proof: ["https://aave.com/docs/primitives/oracle"]
       }
     ],
@@ -211,14 +211,8 @@ const data: Protocol[] = [
     audit_links: ["https://docs.synthetix.io/v/v3/for-developers/smart-contract-audits/"],
     oraclesBreakdown: [
       {
-        name: "Chainlink",
-        type: "Primary",
-        proof: [],
-        chains: [{ chain: "Ethereum" }, { chain: "Optimism" }]
-      },
-      {
         name: "Pyth",
-        type: "Secondary",
+        type: "Fallback",
         proof: [],
         chains: [{ chain: "Optimism" }]
       }
