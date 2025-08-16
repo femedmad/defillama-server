@@ -52,7 +52,7 @@ const data2: Protocol[] = [
     cmcId: "11193",
     category: "Insurance",
     chains: ["Ethereum"],
-    oraclesBreakdown: [ { name: "Chainlink", type: "Fallback", proof: []} ],
+    oraclesBreakdown: [ { name: "Chainlink", type: "Secondary", proof: []} ],
     module: "bright-union/index.js",
     twitter: "bright_union",
     language: "Solidity",
